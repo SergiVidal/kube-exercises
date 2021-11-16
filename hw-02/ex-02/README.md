@@ -1,8 +1,8 @@
 # How To
 
-* Crear el pod mediante el fichero pod.yaml:
+* Crear el pod mediante el fichero rs.yaml:
 ```console
-kubectl create -f pod.yaml
+kubectl create -f rs.yaml
 ```
 
 # Questions
