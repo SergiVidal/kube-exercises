@@ -1,6 +1,6 @@
 # How To
 
-* Crear el pod mediante el fichero rs.yaml:
+* Crear el replica set mediante el fichero rs.yaml:
 ```console
 kubectl create -f rs.yaml
 ```

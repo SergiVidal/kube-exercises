@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-hw02
+spec:
+  selector:
+    app: nginx-hw02
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
