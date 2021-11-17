@@ -15,3 +15,5 @@ kubectl create -f deployment2.yaml
 kubectl patch service nginx-hw02 -p '{"spec":{"selector":{"version": "2.0.0"}}}'
 
 ```
+
+* (NOTA: Mirar imagenes "ex5.1.x.png")
